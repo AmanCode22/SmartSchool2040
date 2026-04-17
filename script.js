@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
     let currentUrl = window.location.href;
     let menuLinks = document.querySelectorAll(".nav-menu a");
@@ -25,4 +24,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
-
