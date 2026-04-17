@@ -3,4 +3,4 @@ My school project for showing how school would be in 2040 and there how learning
 It's for the webverse competition.
 Hosted on
 - Github Pages : https://amancode22.github.io/SmartSchool2040
-- Cloudfare Pages: 
+- Cloudfare Pages: https;//smartschool2040.pages.dev/
