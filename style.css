@@ -1,4 +1,3 @@
-
 :root {
     --bg-dark: #0f0c1b;
     --panel-bg: rgba(26, 22, 43, 0.7);
@@ -218,6 +217,8 @@ body {
 .icon-pink { color: var(--pink); }
 .icon-yellow { color: var(--yellow); }
 .icon-blue { color: var(--blue); }
+.icon-green { color: #22c55e; }
+.icon-orange { color: #f97316; }
 
 .card-title {
     font-family: 'Space Grotesk', sans-serif;
@@ -252,7 +253,7 @@ body {
     border: 2px solid;
 }
 
-.profile-avatar.aman { border-color: red; color: red; }
+.profile-avatar.aman { border-color: var(--purple); color: var(--purple); }
 .profile-avatar.vikrant { border-color: var(--yellow); color: var(--yellow); }
 
 .profile-name {
@@ -274,6 +275,7 @@ body {
     padding: 40px 5%;
     text-align: center;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: auto;
 }
 
 .footer-credits {
@@ -313,4 +315,3 @@ body {
         padding-top: 100px;
     }
 }
-
