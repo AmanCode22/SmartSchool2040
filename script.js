@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let currentUrl_ = window.location.href;\
+    let currentUrl_ = window.location.href;
     let currentUrl= currentUrl_.substring(0, currentUrl_.lastIndexOf('.'));
     let menuLinks = document.querySelectorAll(".nav-menu a");
     let foundActive = false;
