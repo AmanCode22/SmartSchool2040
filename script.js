@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
-    let currentUrl_ = window.location.href;
-    let currentUrl= currentUrl_.substring(0, currentUrl_.lastIndexOf('.'));
+    let currentUrl = window.location.href;
     let menuLinks = document.querySelectorAll(".nav-menu a");
     let foundActive = false;
 
     for (let i = 0; i < menuLinks.length; i++) {
-        let linkHref = menuLinks[i].getAttribute("href");
+        let linkHref_ = menuLinks[i].getAttribute("href");
+        let linkHref= linkHref_.substring(0, linkHref_.lastIndexOf('.'));
         if (currentUrl.includes(linkHref) && linkHref !== "") {
             menuLinks[i].classList.add("active-tab");
             foundActive = true;
