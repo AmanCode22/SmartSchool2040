@@ -180,6 +180,7 @@ body {
 .title span {
     background: linear-gradient(to right, var(--pink), var(--yellow));
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
 }
 
